@@ -39,17 +39,6 @@ void in(vector<string> articulos, vector<string>& resto)
 	}
 }
 
-void ordenar_por_tipo(vector <string>& sujeto, vector <string>& adjetivo, vector <string>& verbo, vector <string>& adverbio, vector <string>& preposicion, vector <string>& sustantivo, vector<string> archivo)
-{
-	for (int i = 1; i < archivo.size(); i++)
-	{
-		while (archivo[i] != "Adjetivo")
-		{
-			sujeto.push_back(archivo[i]);
-		}
-	}
-}
-
 void ordenar_adjetivo(vector<string>& adjetivo, vector<string> nombre)
 {
 	for (int i = 6; i <= 9; i++)
@@ -97,7 +86,6 @@ void ordenar_sustantivo(vector<string>& sustantivo, vector<string> nombre)
 		sustantivo.push_back(nombre[i]);
 	}
 }
-
 
 int main()
 {
