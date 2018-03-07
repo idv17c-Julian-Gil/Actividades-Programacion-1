@@ -133,6 +133,7 @@ int main()
 		examen++;
 	}
 	cout << "No utilice todo, y mucho esta hardcodeado pero funciona :)" << endl;
+	cout << "Y recuerde, los vectores y string son punteros, asi que tecnicamente si use punteros :)" << endl;
 	cout << "Pulsa ENTER para salir..." << endl;
 	cin.get();
 
